@@ -1,0 +1,13 @@
+diff --git a/scripts/mkimg.netboot.sh b/scripts/mkimg.netboot.sh
+index a95d283c..1d7ef3d5 100755
+--- a/scripts/mkimg.netboot.sh
++++ b/scripts/mkimg.netboot.sh
+@@ -27,7 +27,7 @@ profile_netboot() {
+ 	x86_64) kernel_flavors="$kernel_flavors virt";;
+ 	s390x) initfs_features="$initfs_features dasd_mod qeth zfcp";;
+ 	aarch64) kernel_flavors="$kernel_flavors rpi";;
+-	armhf|armv7) kernel_flavors="$kernel_flavors rpi rpi2";;
++	armhf|armv7) kernel_flavors="virt lts";;
+ 	esac
+ }
+ 

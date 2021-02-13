@@ -1,4 +1,6 @@
-FROM arm32v7/alpine
+ARG DARCH=amd64
+
+FROM ${DARCH}/alpine
 
 WORKDIR /root
 

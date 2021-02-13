@@ -1,6 +1,6 @@
-# mkimage-docker
+# alpine-mkimage-docker
 
-alpine release script in docker with multiarch
+alpine release scripts in docker with multiarch
 
 ## Enable multiarch via qemu user
 
